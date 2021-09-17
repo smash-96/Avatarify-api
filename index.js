@@ -17,7 +17,7 @@ app.use(cors());
 
 app.use(express.static("public"));
 
-app.use("/api", avatarRoutes.routes);
+app.use("/", avatarRoutes.routes);
 
 // app.get("/api/initials/:seed", (req, res) => {
 //   let svg = createAvatar(initialsStyle, {
