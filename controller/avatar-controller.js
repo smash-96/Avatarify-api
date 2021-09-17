@@ -13,7 +13,7 @@ const getMaleAvatar = async (req, res) => {
     });
     res.send(svg);
   } catch (error) {
-    es.status(400).send(error.message);
+    res.status(400).send(error.message);
   }
 };
 
@@ -25,7 +25,7 @@ const getFemaleAvatar = async (req, res) => {
     });
     res.send(svg);
   } catch (error) {
-    es.status(400).send(error.message);
+    res.status(400).send(error.message);
   }
 };
 
@@ -37,7 +37,7 @@ const getBotsAvatar = async (req, res) => {
     });
     res.send(svg);
   } catch (error) {
-    es.status(400).send(error.message);
+    res.status(400).send(error.message);
   }
 };
 
@@ -49,7 +49,7 @@ const getInitialsAvatar = async (req, res) => {
     });
     res.send(svg);
   } catch (error) {
-    es.status(400).send(error.message);
+    res.status(400).send(error.message);
   }
 };
 
@@ -61,7 +61,7 @@ const getPixelAvatar = async (req, res) => {
     });
     res.send(svg);
   } catch (error) {
-    es.status(400).send(error.message);
+    res.status(400).send(error.message);
   }
 };
 
