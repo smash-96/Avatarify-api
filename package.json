@@ -1,0 +1,39 @@
+{
+  "name": "avatarify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Maisam Shah",
+  "license": "ISC",
+  "dependencies": {
+    "@dicebear/avatars": "^4.9.1",
+    "@dicebear/avatars-avataaars-sprites": "^4.9.1",
+    "@dicebear/avatars-bottts-sprites": "^4.9.1",
+    "@dicebear/avatars-female-sprites": "^4.9.1",
+    "@dicebear/avatars-gridy-sprites": "^4.9.1",
+    "@dicebear/avatars-human-sprites": "^4.9.1",
+    "@dicebear/avatars-identicon-sprites": "^4.9.1",
+    "@dicebear/avatars-initials-sprites": "^4.9.1",
+    "@dicebear/avatars-jdenticon-sprites": "^4.9.1",
+    "@dicebear/avatars-male-sprites": "^4.9.1",
+    "@dicebear/big-ears": "^4.9.1",
+    "@dicebear/big-ears-neutral": "^4.9.1",
+    "@dicebear/big-smile": "^4.9.1",
+    "@dicebear/croodles": "^4.9.1",
+    "@dicebear/croodles-neutral": "^4.9.1",
+    "@dicebear/micah": "^4.9.1",
+    "@dicebear/miniavs": "^4.9.1",
+    "@dicebear/open-peeps": "^4.9.1",
+    "@dicebear/personas": "^4.9.1",
+    "@dicebear/pixel-art": "^4.9.1",
+    "@dicebear/pixel-art-neutral": "^4.9.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
