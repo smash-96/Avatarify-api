@@ -1,0 +1,12 @@
+spec:
+  name: avatarify
+  services:
+    - environment_slug: node-js
+      git:
+        branch: master
+        repo_clone_url: https://github.com/smash-96/Avatarify-api.git
+      http_port: 3000
+      name: avatarify
+      routes:
+        - path: /
+      run_command: npm start

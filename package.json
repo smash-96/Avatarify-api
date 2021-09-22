@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "Maisam Shah",
+  "author": "Maisam Shah <maisamshah57@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@dicebear/avatars": "^4.9.1",
