@@ -28,6 +28,10 @@ const getMaleAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -41,6 +45,10 @@ const getFemaleAvatar = async (req, res) => {
     let svg = createAvatar(femalesStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
@@ -56,7 +64,10 @@ const getBotsAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
-
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -70,6 +81,10 @@ const getInitialsAvatar = async (req, res) => {
     let svg = createAvatar(initialsStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
@@ -85,6 +100,10 @@ const getPixelRandomAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -98,6 +117,10 @@ const getPixelRandomNeutralAvatar = async (req, res) => {
     let svg = createAvatar(pixelsRandomNeutralStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
@@ -113,6 +136,10 @@ const getAvataarsAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -126,6 +153,10 @@ const getGridSpriteAvatar = async (req, res) => {
     let svg = createAvatar(gridySpritesStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
@@ -141,6 +172,10 @@ const getHumanSpriteAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -154,6 +189,10 @@ const getIdenticonAvatar = async (req, res) => {
     let svg = createAvatar(identiconStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
@@ -169,6 +208,10 @@ const getJdenticonAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -182,6 +225,10 @@ const getBigEarAvatar = async (req, res) => {
     let svg = createAvatar(bigEarsStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
@@ -197,6 +244,10 @@ const getBigEarNeutralAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -210,6 +261,10 @@ const getBigSmileAvatar = async (req, res) => {
     let svg = createAvatar(bigSmileStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
@@ -225,6 +280,10 @@ const getCroodlesAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -238,6 +297,10 @@ const getCroodlesNeutralAvatar = async (req, res) => {
     let svg = createAvatar(croodlesNeutralStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
@@ -253,6 +316,10 @@ const getMicahAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -266,6 +333,10 @@ const getMiniavsAvatar = async (req, res) => {
     let svg = createAvatar(miniavsStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
@@ -281,6 +352,10 @@ const getOpenPeepsAvatar = async (req, res) => {
       seed: req.params.seed,
       ...urlParams,
     });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
+    });
     res.send(svg);
   } catch (error) {
     res.status(400).send(error.message);
@@ -294,6 +369,10 @@ const getPersonasAvatar = async (req, res) => {
     let svg = createAvatar(personasStyle, {
       seed: req.params.seed,
       ...urlParams,
+    });
+    res.set({
+      "Content-Type": "image/svg+xml",
+      "Cache-Control": `max-age=${60 * 60 * 24 * 365}`,
     });
     res.send(svg);
   } catch (error) {
