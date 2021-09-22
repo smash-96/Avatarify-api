@@ -25,7 +25,7 @@ const getMaleAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(malesStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -43,7 +43,7 @@ const getFemaleAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(femalesStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -61,7 +61,7 @@ const getBotsAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(botsStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -79,7 +79,7 @@ const getInitialsAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(initialsStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -97,7 +97,7 @@ const getPixelRandomAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(pixelsRandomStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -115,7 +115,7 @@ const getPixelRandomNeutralAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(pixelsRandomNeutralStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -133,7 +133,7 @@ const getAvataarsAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(avataarsStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -151,7 +151,7 @@ const getGridSpriteAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(gridySpritesStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -169,7 +169,7 @@ const getHumanSpriteAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(humanSpritesStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -187,7 +187,7 @@ const getIdenticonAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(identiconStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -205,7 +205,7 @@ const getJdenticonAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(jdenticonStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -223,7 +223,7 @@ const getBigEarAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(bigEarsStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -241,7 +241,7 @@ const getBigEarNeutralAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(bigEarsNeutralStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -259,7 +259,7 @@ const getBigSmileAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(bigSmileStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -277,7 +277,7 @@ const getCroodlesAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(croodlesStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -295,7 +295,7 @@ const getCroodlesNeutralAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(croodlesNeutralStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -313,7 +313,7 @@ const getMicahAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(micahStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -331,7 +331,7 @@ const getMiniavsAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(miniavsStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -349,7 +349,7 @@ const getOpenPeepsAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(openPeepsStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
@@ -367,7 +367,7 @@ const getPersonasAvatar = async (req, res) => {
   try {
     const urlParams = req.query;
     let svg = createAvatar(personasStyle, {
-      seed: req.params.seed,
+      //seed: req.params.seed,
       ...urlParams,
     });
     res.set({
